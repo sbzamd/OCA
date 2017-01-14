@@ -1,0 +1,72 @@
+THESE ARE SOME IMPORTANT POINT REGARDING CHAPTER.
+@Shahbaz_Ahmad
+
+//////////////////////--------------------PACKAGE AND IMPORT----------------//////////////////////////////
+#If there is package is naming for current java file it must be first statement like:
+package home 
+class ClassName{
+...
+}
+
+#After package there must be import if any in java  file like:
+package home
+import mypackage
+class ClassName{
+...
+}
+
+#Although you may include comment at any line since comments is not statement.
+
+#If we dont give package name to our java file then  it will be part of default package.
+
+#Default package is nothing but your current directory in which java source file reside.
+
+#As per naming convention rule package name should be all lowercase.
+
+
+///////////////------------------STATIC IMPORT-------------------////////////////////////////
+#You could import static member(variable ,methods) by using static import, as given below:
+import static packagename.ClassName.member[variable,methods];
+
+#The static import method act as member defined in class in which it is using.
+
+#We can also used wildcard entry for static import,	In that case all static member will be imported.
+
+
+///////----------ABSTRACT KEYWORD--------------///////////////////
+#abstract is non access specifier(or optional specifier),it is not an access specifier .So it doesn't affect accessibillity of class ,variable or method.
+
+#Any class(Even concrete class) preceded with the word abstract would be abstract class.
+
+#No instance(Obect) can be created of abstract class, although refeence variable can be created.
+
+#Only abstract class or interface can contain abstract method.
+
+#Interface is pure abstract class so, interface preceded with keyword abstract is redundant.
+
+#No variable(instance,static,local,parameter) can be abstract.
+
+
+/////////////--------------FINAL KEYWORD---------------////////////////////////
+#final is non access specifer(optional specifier) can be used with class,variable and method.
+
+#final can't be used with abstract class and interface.
+
+#class specifies with final can't be extends.
+
+#method specifies with final can't be overridden.
+
+#variable specifies with final is constant variable hence it value can't be change . variable may be primitives or non primitives(object reference).
+
+
+//////////////////---------------STATIC KEYWORD------------------//////////////////////////////
+#static is non access specifier(optional specifier) can be used with instance variable,method.
+
+#you can't create static local variable.
+
+#static class variable is class level variable,it exist without creation of any instance(object) of class.
+
+#there exist only asingle copy of static variable even we can create as much instance(object) of the class as we want but all object share same static variable.
+
+
+
